@@ -1,0 +1,63 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box; 
+}
+.cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "a b"
+    "c d"
+    "x y"
+    "e f"
+    "g h"
+    "i j"
+    "k l"
+}
+.padding {
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.style {
+    list-style: disc;
+}
+
+.item-1 {
+    grid-area: a;
+}
+.item-2 {
+    grid-area: b;
+}
+.item-3 {
+    grid-area: c;
+}
+.item-4 {
+    grid-area: d;
+}
+.item-5 {
+    grid-area: e;
+}
+.item-6 {
+    grid-area: g;
+}
+.item-7 {
+    grid-area: h;
+}
+.item-8 {
+    grid-area: i;
+}
+.item-9 {
+    grid-area: j;
+
+}
+
+.item-10 {
+    grid-area: k;}
+
+    .item-11 {
+        grid-area: x;
+    }
+
+    .item-12 {
+        grid-area: y;
+    }
